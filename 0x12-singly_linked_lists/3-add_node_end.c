@@ -4,8 +4,8 @@
 
 /**
  * add_node_end - Adds a new node at the end of a linked list
- * @head: The doubled pointer to the list_t list
- * @str: The String to duplicated in the new node
+ * @head: Doubled pointer to the list_t list
+ * @str: The string to duplicated in the new node
  *
  * Return: The address of the new element, or NULL if it failed
  */
