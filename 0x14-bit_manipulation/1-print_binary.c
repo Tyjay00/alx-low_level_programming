@@ -9,7 +9,7 @@ void print_binary(unsigned long int n)
 	int d, count = 0;
 	unsigned long int current;
 
-	for (d = 63; d >= 0; i--)
+	for (d = 63; d >= 0; d--)
 	{
 		current = n >> d;
 
