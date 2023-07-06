@@ -2,24 +2,24 @@
 
 /**
  * binary_to_uint - Converts a binary number to unsigned int
- * @c: String containing the binary number
+ * @b: String containing the binary number
  *
  * Return: Converted number
  */
-unsigned int binary_to_uint(const char *c)
+unsigned int binary_to_uint(const char *b)
 {
 	int d;
-	unsigned int decimal_value = 0;
+	unsigned int dec_val = 0;
 
-	if (!c)
+	if (!b)
 		return (0);
 
-	for (d = 0; c[d]; d++)
+	for (d = 0; b[d]; d++)
 	{
-		if (c[d] < '0' || c[d] > '1')
+		if (b[d] < '0' || b[d] > '1')
 			return (0);
-		decimal_value = 2 * decimal_value + (c[d] - '0');
+		dec_val = 2 * dec_val + (b[d] - '0');
 	}
 
-	return (decimal_value);
+	return (dec_val);
 }
