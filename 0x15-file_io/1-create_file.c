@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * create_file - Creates a file.
@@ -9,7 +10,6 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	FILE *file = fopen(filename, "w");
 
 	int fd, w, len = 0;
 
