@@ -1,0 +1,3 @@
+# This is a simple Makefile
+all:
+	gcc -o school main.c
