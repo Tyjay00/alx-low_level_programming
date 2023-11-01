@@ -1,3 +1,2 @@
-# This is a simple Makefile
-all:
-	gcc -o school main.c
+all: main.c school.c
+	gcc main.c school.c -o school
